@@ -18,7 +18,7 @@ numpy
 scikit-learn
 
 Usage : 
-download images and put them all in a folder
+download images and put them all in a folder(optional)
 
 costumize paths
 
