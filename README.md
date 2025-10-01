@@ -18,7 +18,9 @@ numpy
 scikit-learn
 
 Usage : 
-Set the folder path to your art directory
+download images and put them all in a folder
+
+costumize paths
 
 Run the script to process all images
 
