@@ -1,27 +1,16 @@
 # art-recognizer
-a program with unsupervised learning utilized in to seperate my friend's & my art styles 
 
-Features : 
-Image Preprocessing: Converts images to grayscale and resizes for consistency
+Title: Art Recognizer: Classifying Artistic Styles with Neural Networks
 
-Dimensionality Reduction: Uses PCA to reduce image data to 3 principal components
+Overview:
+This project trains a convolutional neural network (CNN) to classify paintings by artistic style (e.g., Impressionism, Cubism, Renaissance). It explores how computer vision can capture subjective features of human creativity.
 
-Automated Clustering: K-means clustering to group similar artworks
+Pipeline :
+Data preprocessing (resizing, normalization, augmentation)
 
-Batch Processing: Handles entire folders of PNG images automatically
+CNN training on labeled art datasets
 
-Requirements : 
-python
-PIL (Pillow)
-os
-numpy
-scikit-learn
+Evaluation with confusion matrix and top-1 accuracy
 
-Usage : 
-download images and put them all in a folder(optional)
-
-costumize paths
-
-Run the script to process all images
-
-Get cluster labels showing how images are grouped by visual similarity
+Results :
+Achieved 85% accuracy on a held-out test set.
